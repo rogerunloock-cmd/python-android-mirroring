@@ -30,25 +30,43 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 
 ---
 
+## ⚙️ Requisitos
+
+- Windows 10 ou superior
+- Python 3.10 ou superior
+- Celular Android
+- Cabo USB
+- Depuração USB ativada
+- ADB e scrcpy instalados na pasta `C:\scrcpy`
+
+---
+
 ## 🛠 Tecnologias
 
 - Python
 - Tkinter
 - scrcpy
-- Android Debug Bridge (ADB)
+- ADB
+
+## ▶️ Como usar
+
+1. Ative a **Depuração USB** no Android.
+2. Conecte o celular ao computador via USB.
+3. Abra o programa.
+4. Clique em **Verificar celular**.
+5. Autorize a conexão no celular.
+6. Clique em **Iniciar espelhamento**.
+7. Para desligar a tela do aparelho mantendo o espelhamento, clique em **Espelhar e desligar tela**.
 
 ---
 
-## 📋 Requisitos
+## 📄 Licença
 
-- Windows 10 ou superior
-- Python 3.10+
-- scrcpy instalado
-- Depuração USB ativada
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
 
 ---
 
-## 🚀 Como executar
+## 🚀 Como instalar
 
 ```bash
 git clone https://github.com/rogerunlock-cmd/python-android-mirroring.git
@@ -77,7 +95,9 @@ python-android-mirroring/
 
 ## 👨‍💻 Autor
 
-**Roger Belchior Marcilio**
+Desenvolvido por **Roger Belchior Marcilio**
+
+Se este projeto foi útil para vc deixe uma⭐no repositório!
 
 GitHub:
 https://github.com/rogerunloock-cmd
