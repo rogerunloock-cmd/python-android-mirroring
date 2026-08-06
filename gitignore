@@ -1,0 +1,26 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Scrcpy não deve ser enviado
+scrcpy/
+scrcpy-win*/
+*.zip
