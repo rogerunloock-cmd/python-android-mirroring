@@ -1,19 +1,21 @@
 # 📱 Espelhamento Android com Python
 
-<p align="center">
-
 Aplicação para controlar o espelhamento de dispositivos Android no Windows utilizando **Python**, **scrcpy** e **ADB**.
-
-</p>
 
 <p align="center">
   <img src="screenshots/interface.png" width="900">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Windows-10+-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Windows-10+-0078D6?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</p>
+
+## 🎬 Demonstração
+
+<p align="center">
+  <img src="screenshots/demo.gif" width="900">
 </p>
 
 ---
