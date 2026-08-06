@@ -32,4 +32,6 @@ Aplicação gráfica desenvolvida em Python para controlar o espelhamento de dis
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/SEU-USUARIO/espelhamento-android-python.git
+git clone https://github.com/rogerunloock-cmd/espelhamento-android-python.git
+
+```
