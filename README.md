@@ -1,30 +1,36 @@
 # 📱 Espelhamento Android com Python
 
-Aplicação desenvolvida em **Python** para controlar o espelhamento de dispositivos Android no Windows utilizando **scrcpy** e **ADB** através de uma interface gráfica feita com **Tkinter**.
+<p align="center">
 
----
+Aplicação para controlar o espelhamento de dispositivos Android no Windows utilizando **Python**, **scrcpy** e **ADB**.
 
-## 📸 Interface
+</p>
 
 <p align="center">
   <img src="screenshots/interface.png" width="900">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows-10+-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
 
 ---
 
 ## ✨ Funcionalidades
 
-- ✅ Verificar se um dispositivo Android está conectado
-- ✅ Iniciar o espelhamento da tela
-- ✅ Espelhar mantendo a tela física do celular desligada
-- ✅ Exibir mensagens de erro e status
-- ✅ Interface gráfica simples e intuitiva
+- 📱 Detecta dispositivos Android conectados
+- 🖥️ Inicia o espelhamento da tela
+- 🔒 Permite espelhar com a tela do celular desligada
+- ⚠️ Exibe mensagens de erro e status
+- 🖱️ Interface gráfica simples em Tkinter
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠 Tecnologias
 
-- Python 3
+- Python
 - Tkinter
 - scrcpy
 - Android Debug Bridge (ADB)
@@ -35,40 +41,30 @@ Aplicação desenvolvida em **Python** para controlar o espelhamento de disposit
 
 - Windows 10 ou superior
 - Python 3.10+
-- scrcpy
-- ADB
+- scrcpy instalado
 - Depuração USB ativada
 
 ---
 
-## 🚀 Instalação
+## 🚀 Como executar
 
 ```bash
 git clone https://github.com/rogerunlock-cmd/python-android-mirroring.git
-```
 
-Entre na pasta do projeto:
-
-```bash
 cd python-android-mirroring
-```
 
-Execute:
-
-```bash
 python main.py
 ```
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura
 
 ```
 python-android-mirroring/
 │
 ├── screenshots/
 │   └── interface.png
-│
 ├── main.py
 ├── README.md
 ├── LICENSE
@@ -79,7 +75,7 @@ python-android-mirroring/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Roger Belchior Marcilio**
+**Roger Belchior Marcilio**
 
 GitHub:
-https://github.com/rogerunloock-cmd
+https://github.com/rogerunlock-cmd
