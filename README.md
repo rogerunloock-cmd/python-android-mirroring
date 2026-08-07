@@ -14,9 +14,6 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 
 ---
 
-<p align="center">
-  <img src="screenshots/interface.png" width="900">
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge">
