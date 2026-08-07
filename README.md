@@ -14,7 +14,7 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 
 ---
 
-
+ 
 ---
 
 ## 🎬 Demonstração
@@ -46,7 +46,7 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 - Windows 10 ou superior
 - Python 3.10 ou superior
 - Celular Android
-- Wi-Fi no computador e no celular
+- Computador e celular conectados à mesma rede Wi-Fi
 - Depuração sem fio ativada no Android
 - Cabo USB
 - Depuração USB ativada
