@@ -46,11 +46,13 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 - Windows 10 ou superior
 - Python 3.10 ou superior
 - Celular Android
+- ADB e scrcpy instalados na pasta `C:\scrcpy`
+### 📶 Para conexão sem fio
 - Computador e celular conectados à mesma rede Wi-Fi
 - Depuração sem fio ativada no Android
+### 🔌 Para conexão USB
 - Cabo USB
 - Depuração USB ativada
-- ADB e scrcpy instalados na pasta `C:\scrcpy`
 
 ---
 
