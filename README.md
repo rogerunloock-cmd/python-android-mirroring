@@ -37,6 +37,7 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 ## ✨ Funcionalidades
 
 - 📱 Detecta dispositivos Android conectados
+- 📶 Permite pareamento sem fio via QR Code
 - 🖥️ Inicia o espelhamento da tela
 - 🔒 Permite espelhar com a tela do celular desligada
 - ⚠️ Exibe mensagens de erro e status
@@ -49,6 +50,8 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 - Windows 10 ou superior
 - Python 3.10 ou superior
 - Celular Android
+- Wi-Fi no computador e no celular
+- Depuração sem fio ativada no Android
 - Cabo USB
 - Depuração USB ativada
 - ADB e scrcpy instalados na pasta `C:\scrcpy`
@@ -64,13 +67,26 @@ Aplicação para controlar o espelhamento de dispositivos Android no Windows uti
 
 ## ▶️ Como usar
 
+### 📶 Conexão sem fio
+
+1. Conecte o computador e o celular à mesma rede Wi-Fi.
+2. No Android, ative as **Opções do desenvolvedor**.
+3. Ative a **Depuração sem fio**.
+4. Abra o programa com `python main.py`.
+5. Clique na opção de **Pareamento por QR Code**.
+6. No celular, abra **Depuração sem fio** e escolha a opção de pareamento por QR Code.
+7. Escaneie o QR Code exibido pelo programa.
+8. Após o pareamento, aguarde a conexão com o celular.
+9. Clique em **Iniciar espelhamento**.
+
+### 🔌 Conexão por USB
+
 1. Ative a **Depuração USB** no Android.
-2. Conecte o celular ao computador via USB.
+2. Conecte o celular ao computador usando um cabo USB.
 3. Abra o programa.
-4. Clique em **Verificar celular**.
-5. Autorize a conexão no celular.
+4. Autorize a depuração USB no celular.
+5. Clique em **Verificar celular**.
 6. Clique em **Iniciar espelhamento**.
-7. Para desligar a tela do aparelho mantendo o espelhamento, clique em **Espelhar e desligar tela**.
 
 ---
 
